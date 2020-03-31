@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+    font-size: 13.176471px
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 640px) {
+    html {
+        font-size: calc(13.17647px + (282.3529vw - 1807.05856px) / 193)
+    }
+}
+
+@media (min-width: 833px) {
+    html {
+        font-size: calc(12.288px + (371.2vw - 3092.096px) / 246.5);
+    }
+}
+
+@media (min-width: 1079.5px) {
+    html {
+        font-size: 16px
+    }
+}
+
+body {
+    background-color: #fff;
+    font-family: FiraGO, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+}
+
+.row {
+    margin-top: 1rem;
+}
+
+.text-white {
+    color: #fff
+}
+
+.text-gray-550 {
+    color: #8e9cb4
+}
+
+.text-gray-650 {
+    color: #68778d;
+}
+
+.text-gray-700 {
+    color: #4a5568;
+}
+
+.text-gray-750 {
+    color: #44505f;
+}
+
+
+.skill-mark {
+    float: left;
+    border-radius: 3px;
+    width: 10px;
+    height: 100%;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+    background: #4A5568;
+}
+
+.skill-content {
+    margin-left: 14px;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 14px;
+}
+
+.skill-list-box-item {
+    display: inline-block;
+    color: #44505f;
+    background-color: #edf2f7;
+    padding: 0 0.40rem 0 0.40rem;
+    margin: 0.4rem 0.4rem 0 0;
+}
+
+.inline-block {
+    display: inline-block;
 }
