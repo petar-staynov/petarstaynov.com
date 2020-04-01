@@ -13,12 +13,12 @@ const AppMenuButton = (props) => {
         <div>
             <div className='app-menu-button'>
                 <button className='btn' onClick={() => handleMenuClick()}>
-                    <i className="fas fa-bars fa-2x"></i>
+                    <i className="fas fa-print fa-2x"></i>
                 </button>
             </div>
             {
                 showMenu === true
-                    ? <AppMenu/>
+                    ? <AppMenu handleClick={() => handleMenuClick()}/>
                     : null
             }
         </div>
