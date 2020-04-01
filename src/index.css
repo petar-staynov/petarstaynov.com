@@ -28,10 +28,23 @@ body {
 a {
     color: inherit;
     text-decoration: inherit;
+    border-bottom: none;
 }
 
 a:hover {
     text-decoration: inherit;
+}
+
+/* Remove Hyperlinks in print */
+@media print {
+    a:link {
+        border-bottom: none !important;
+        text-decoration: none !important;
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
 }
 
 .row {
