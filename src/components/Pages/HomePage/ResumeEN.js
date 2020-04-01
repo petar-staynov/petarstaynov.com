@@ -31,11 +31,20 @@ const ResumeEn = (props) => {
                                 <i className="fab fa-github-square fa-2x"></i></a>
                         </div>
                     </div>
-                    <hr/>
                 </div>
             </header>
+            <hr/>
             <section>
-                <h3 className="text-gray-700">Work projects:</h3>
+                <h3 className="text-gray-700">About me:</h3>
+                <p>
+                    Freelance Web Developer with a preference for front-end work and a passion for UI and UX design.
+                    Focused on  writing clean and readable code and devising optimised solutions to different problems.
+                    Interested in the latest trends and everything "tech" from software to hardware.
+                </p>
+            </section>
+            <hr/>
+            <section>
+                <h3 className="text-gray-700">Projects:</h3>
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
@@ -43,8 +52,8 @@ const ResumeEn = (props) => {
                                 Corona Tracker BG <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2020</p>
-                        <p className="text-gray-650 m-0">HTML, CSS, ReactJS, Bootstrap 4</p>
+                        <p className="text-gray-650 m-0">2020 / Work project</p>
+                        <p className="text-gray-650 m-0">HTML, SCSS, ReactJS, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
                         <p>
@@ -61,7 +70,7 @@ const ResumeEn = (props) => {
                                 Browser Based Game
                             </span>
                         </h5>
-                        <p className="text-gray-650 m-0">2018 - 2019</p>
+                        <p className="text-gray-650 m-0">2018 - 2019 / Work project</p>
                         <p className="text-gray-650 m-0">HTML, CSS, jQuery, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
@@ -73,10 +82,7 @@ const ResumeEn = (props) => {
                         </p>
                     </div>
                 </div>
-            </section>
-            <hr/>
-            <section>
-                <h3 className="text-gray-700">University projects:</h3>
+                <br/>
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
@@ -84,7 +90,7 @@ const ResumeEn = (props) => {
                                 Pizzeria Web App (PizzaDotNet) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2020</p>
+                        <p className="text-gray-650 m-0">2020 / University project</p>
                         <p className="text-gray-650 m-0">HTML, CSS, C#, ASP.NET, EF6, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
@@ -102,7 +108,7 @@ const ResumeEn = (props) => {
                                 Online Store (React Commerce) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2019</p>
+                        <p className="text-gray-650 m-0">2019 / Personal project</p>
                         <p className="text-gray-650 m-0">HTML, CSS, React, Redux, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
@@ -119,7 +125,7 @@ const ResumeEn = (props) => {
                                 Photography Portfolio Site <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2018</p>
+                        <p className="text-gray-650 m-0">2019 / Personal project</p>
                         <p className="text-gray-650 m-0">HTML, CSS, jQuery, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
@@ -128,6 +134,61 @@ const ResumeEn = (props) => {
                         </p>
                     </div>
                 </div>
+                <br/>
+                <div className="row text-left">
+                    <div className="col-md">
+                        <h5>
+                            <a href="https://github.com/petar-staynov/vimeo-video-downloader" target="_blank">
+                                Vimeo Video Downloader (Extension) <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </h5>
+                        <p className="text-gray-650 m-0">2019 / Personal project</p>
+                        <p className="text-gray-650 m-0">JavaScript</p>
+                    </div>
+                    <div className="col-md">
+                        <p>
+                            A simple extension for Chrome and Chromium-based browsers that allows downloading
+                            videos through an unauthorized API access.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div className="row text-left">
+                    <div className="col-md">
+                        <h5>
+                            <a href="https://github.com/petar-staynov/softuni-better-video-player-extension" target="_blank">
+                                SoftUni Better video player (Extension) <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </h5>
+                        <p className="text-gray-650 m-0">2019 / Personal project</p>
+                        <p className="text-gray-650 m-0">JavaScript</p>
+                    </div>
+                    <div className="col-md">
+                        <p>
+                            A simple extension for Chrome and Chromium-based browsers that improves the user experience
+                            on the SoftUni video player page.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div className="row text-left">
+                    <div className="col-md">
+                        <h5>
+                            <a href="https://github.com/petar-staynov/vimeo-video-downloader" target="_blank">
+                                Image Filters (Desktop app) <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </h5>
+                        <p className="text-gray-650 m-0">2019 / University project</p>
+                        <p className="text-gray-650 m-0">C#, WPF</p>
+                    </div>
+                    <div className="col-md">
+                        <p>
+                            A WPF Windows desktop application that applies different filters to an image
+                            that the user chooses.
+                        </p>
+                    </div>
+                </div>
+                <br/>
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
@@ -135,12 +196,12 @@ const ResumeEn = (props) => {
                                 CodeShip <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2016</p>
+                        <p className="text-gray-650 m-0">2016 / University team project</p>
                         <p className="text-gray-650 m-0">HTML 5 Canvas, CSS, JavaScript</p>
                     </div>
                     <div className="col-md">
                         <p>
-                            A simple space ship browser based video game made with HTML 5 Canvas and JavaScript.
+                            A simple space ship browser based video game made with HTML 5 Canvas and pure JavaScript.
                         </p>
                     </div>
                 </div>
@@ -156,7 +217,6 @@ const ResumeEn = (props) => {
                             <span>My primary technologies stack that I'm most comfortable using.</span>
                         </div>
                         <ul className="skill-list">
-                            <li className="skill-list-box-item">Node</li>
                             <li className="skill-list-box-item">ES6</li>
                             <li className="skill-list-box-item">AJAX</li>
                             <li className="skill-list-box-item">jQuery</li>
@@ -193,7 +253,9 @@ const ResumeEn = (props) => {
                         </div>
                         <ul className="skill-list">
                             <li className="skill-list-box-item">HTML/CSS</li>
+                            <li className="skill-list-box-item">SCSS</li>
                             <li className="skill-list-box-item">Bootstrap</li>
+                            <li className="skill-list-box-item">Wordpress</li>
                             <li className="skill-list-box-item">Web hosting</li>
                             <li className="skill-list-box-item">Firebase</li>
                             <li className="skill-list-box-item">SEO</li>
@@ -203,9 +265,8 @@ const ResumeEn = (props) => {
                             <li className="skill-list-box-item">PHP</li>
                             <li className="skill-list-box-item">MS Office</li>
                             <li className="skill-list-box-item">Photoshop</li>
-                            <li className="skill-list-box-item">Lightroom</li>
-                            <li className="skill-list-box-item">Premier</li>
-
+                            <li className="skill-list-box-item">Linux</li>
+                            <li className="skill-list-box-item">macOS</li>
                         </ul>
                     </div>
                 </div>
