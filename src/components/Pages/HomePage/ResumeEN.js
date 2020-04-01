@@ -22,13 +22,18 @@ const ResumeEn = (props) => {
                     </div>
                     <div className="row">
                         <div className="col col-12">
-                            <a href="https://www.facebook.com/profile.php?id=100003782501671" className="m-3"
-                               target="_blank">
-                                <i className="fab fa-facebook-square fa-2x"></i></a>
-                            <a href="https://www.linkedin.com/in/petar-staynov/" className="m-3" target="_blank">
-                                <i className="fab fa-linkedin fa-2x"></i></a>
-                            <a href="https://github.com/petar-staynov" className="m-3" target="_blank">
-                                <i className="fab fa-github-square fa-2x"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100003782501671"
+                               className="m-3"target="_blank">
+                                <i className="fab fa-facebook-square fa-lg"></i> Petar Staynov
+                            </a>
+                            <a href="https://www.linkedin.com/in/petar-staynov/"
+                               className="m-3" target="_blank">
+                                <i className="fab fa-linkedin fa-lg"></i> petar-staynov
+                            </a>
+                            <a href="https://github.com/petar-staynov"
+                               className="m-3" target="_blank">
+                                <i className="fab fa-github-square fa-lg"></i> petar-staynov
+                            </a>
                         </div>
                     </div>
                 </div>
