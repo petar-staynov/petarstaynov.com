@@ -66,7 +66,7 @@ const ResumeEn = (props) => {
                     </div>
                     <div className="col-md">
                         <p>
-                            Worked with an international team of 3 people to build and maintained a fluid and
+                            Worked with an international team of 3 people to build and maintain a fluid and
                             responsive website for a now defunct browser based game with ~500 unique monthly visitors.
                             Used a combination of jQuery and Bootstrap to build web pages, fetch and display player
                             data and handle user interactions.
@@ -89,7 +89,7 @@ const ResumeEn = (props) => {
                     </div>
                     <div className="col-md">
                         <p>
-                            Fully design the frontend and backend for Pizza restaurant web app using ASP.NET Core 3.1,
+                            Fully design the frontend and backend for a Pizza Restaurant Web App using ASP.NET Core 3.1,
                             Entity Framework 6, MS-SQL, Razor Pages and Bootstrap 4.
                         </p>
                     </div>
@@ -98,7 +98,7 @@ const ResumeEn = (props) => {
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <a href="#" target="_blank">
+                            <a href="https://github.com/petar-staynov/react-commerce" target="_blank">
                                 Online Store (React Commerce) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
@@ -108,6 +108,39 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <p>
                             Online clothing web store built using ReactJS and Redux with data hosted on Firebase.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div className="row text-left">
+                    <div className="col-md">
+                        <h5>
+                            <a href="#" target="_blank">
+                                Photography Portfolio Site <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </h5>
+                        <p className="text-gray-650 m-0">2018</p>
+                        <p className="text-gray-650 m-0">HTML, CSS, jQuery, Bootstrap 4</p>
+                    </div>
+                    <div className="col-md">
+                        <p>
+                            A simple portfolio website built for my personal photography.
+                        </p>
+                    </div>
+                </div>
+                <div className="row text-left">
+                    <div className="col-md">
+                        <h5>
+                            <a href="https://github.com/petar-staynov/CodeShip" target="_blank">
+                                CodeShip <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </h5>
+                        <p className="text-gray-650 m-0">2016</p>
+                        <p className="text-gray-650 m-0">HTML 5 Canvas, CSS, JavaScript</p>
+                    </div>
+                    <div className="col-md">
+                        <p>
+                            A simple space ship browser based video game made with HTML 5 Canvas and JavaScript.
                         </p>
                     </div>
                 </div>
@@ -123,7 +156,7 @@ const ResumeEn = (props) => {
                             <span>My primary technologies stack that I'm most comfortable using.</span>
                         </div>
                         <ul className="skill-list">
-                            <li className="skill-list-box-item">ES5</li>
+                            <li className="skill-list-box-item">Node</li>
                             <li className="skill-list-box-item">ES6</li>
                             <li className="skill-list-box-item">AJAX</li>
                             <li className="skill-list-box-item">jQuery</li>
@@ -188,13 +221,12 @@ const ResumeEn = (props) => {
                             </span>
                         </h5>
                         <p className="text-gray-650 m-0">C# Developer</p>
-                        <p className="text-gray-650 m-0">2016 - 2019</p>
+                        <p className="text-gray-650 m-0">2016 - 2020</p>
                     </div>
                     <div className="col-md">
                         <p>
-                            Private academy offering certified courses for developers where I learned to work with
-                            the Microsoft .NET Framework stack and Javascript through participating in different exams
-                            and solo or team projects. Current grade of 5.60/6.00
+                            Private academy offering certified courses for developers where I participated in various
+                            curriculums and worked on different solo and team projects. Current grade of 5.60/6.00
                         </p>
                         <a href="#" target="_blank">
                             <strong> - .NET Developer Diploma </strong>
@@ -277,7 +309,7 @@ const ResumeEn = (props) => {
                                 FELS - First English Language School
                             </span>
                         </h5>
-                        <p className="text-gray-650 m-0">English and Russian with "Maths and IT" profiling</p>
+                        <p className="text-gray-650 m-0">English and Russian with "Math and IT" profiling</p>
                         <p className="text-gray-650 m-0">2011 - 2016</p>
                     </div>
                     <div className="col-md">
@@ -298,9 +330,6 @@ const ResumeEn = (props) => {
                 <h3 className="text-gray-700">Interests:</h3>
 
             </section>
-            <hr/>
-            <p>Change language</p>
-            <p>Print</p>
         </div>
     )
 };
