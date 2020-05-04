@@ -1,23 +1,25 @@
 import React from 'react';
 
 const ResumeEn = (props) => {
-    //Projects
-    //Skills
-    //Education
-    //Interests
     return (
         <div>
             <header>
                 <div className="text-gray-750">
                     <h1>Petar Staynov</h1>
-                    <h5>Frontend Web Developer / Programmer</h5>
+                    <h5>Web Developer / Programmer</h5>
                     <hr/>
                     <div className="row">
                         <div className="col-md">
-                            <span><i className="fas fa-envelope-square fa-lg"></i> petar.staynov@gmail.com</span>
+                            <address>
+                                <a href="mailto:petar.staynov@gmail.com" className="m-3"target="_blank">
+                                    <i className="fas fa-envelope-square fa-lg"></i> petar.staynov@gmail.com
+                                </a>
+                            </address>
                         </div>
                         <div className="col-md">
-                            <span><i className="fas fa-map-marker-alt fa-lg"></i> Sofia, Bulgaria</span>
+                            <a href="https://www.google.com/maps/place/Sofia/" className="m-3"target="_blank">
+                                <i className="fas fa-map-marker-alt fa-lg"></i> Sofia, Bulgaria
+                            </a>
                         </div>
                     </div>
                     <div className="row">
@@ -53,11 +55,31 @@ const ResumeEn = (props) => {
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <a href="https://coronatrackerbg.com/" target="_blank">
+                            <a href="https://github.com/petar-staynov/SoftUni-PizzaDotNet" target="_blank">
+                                Pizzeria Web App (PizzaDotNet) <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </h5>
+                        <p className="text-gray-650 m-0">2020 / University project</p>
+                        <p className="text-gray-650 m-0">HTML, CSS, C#, ASP.NET Core, Entity Framework, AutoMapper, Bootstrap 4</p>
+                    </div>
+                    <div className="col-md">
+                        <p>
+                            Designed and implemented the frontend and backend
+                            for a Pizza Restaurant Web App following an MVC Layered architecture with a Repository and Service
+                            patterns as well as adhering to SOLID principles. Other notable mentions are the usage of
+                            API Controllers for some of the functionality and the integration of Google Cloud Storage.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div className="row text-left">
+                    <div className="col-md">
+                        <h5>
+                            <a href="https://github.com/petar-staynov/coronavirus-tracker-bg" target="_blank">
                                 Corona Tracker BG <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2020 / Work project</p>
+                        <p className="text-gray-650 m-0">2020 / Personal project</p>
                         <p className="text-gray-650 m-0">HTML, SCSS, ReactJS, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
@@ -91,24 +113,6 @@ const ResumeEn = (props) => {
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <a href="#" target="_blank">
-                                Pizzeria Web App (PizzaDotNet) <i className="fas fa-link fa-xs"></i>
-                            </a>
-                        </h5>
-                        <p className="text-gray-650 m-0">2020 / University project</p>
-                        <p className="text-gray-650 m-0">HTML, CSS, C#, ASP.NET, EF6, Bootstrap 4</p>
-                    </div>
-                    <div className="col-md">
-                        <p>
-                            Fully design the frontend and backend for a Pizza Restaurant Web App using ASP.NET Core 3.1,
-                            Entity Framework 6, MS-SQL, Razor Pages and Bootstrap 4.
-                        </p>
-                    </div>
-                </div>
-                <br/>
-                <div className="row text-left">
-                    <div className="col-md">
-                        <h5>
                             <a href="https://github.com/petar-staynov/react-commerce" target="_blank">
                                 Online Store (React Commerce) <i className="fas fa-link fa-xs"></i>
                             </a>
@@ -119,23 +123,6 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <p>
                             Online clothing web store built using ReactJS and Redux with data hosted on Firebase.
-                        </p>
-                    </div>
-                </div>
-                <br/>
-                <div className="row text-left">
-                    <div className="col-md">
-                        <h5>
-                            <a href="#" target="_blank">
-                                Photography Portfolio Site <i className="fas fa-link fa-xs"></i>
-                            </a>
-                        </h5>
-                        <p className="text-gray-650 m-0">2019 / Personal project</p>
-                        <p className="text-gray-650 m-0">HTML, CSS, jQuery, Bootstrap 4</p>
-                    </div>
-                    <div className="col-md">
-                        <p>
-                            A simple portfolio website built for my personal photography.
                         </p>
                     </div>
                 </div>
@@ -179,7 +166,7 @@ const ResumeEn = (props) => {
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <a href="https://github.com/petar-staynov/vimeo-video-downloader" target="_blank">
+                            <a href="https://github.com/petar-staynov/CSharp-Image-Filters" target="_blank">
                                 Image Filters (Desktop app) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
@@ -190,6 +177,23 @@ const ResumeEn = (props) => {
                         <p>
                             A WPF Windows desktop application that applies different filters to an image
                             that the user chooses.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <div className="row text-left">
+                    <div className="col-md">
+                        <h5>
+                            <a href="#" target="_blank">
+                                Photography Portfolio Site <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </h5>
+                        <p className="text-gray-650 m-0">2018 / Personal project</p>
+                        <p className="text-gray-650 m-0">HTML, CSS, jQuery, Bootstrap 4</p>
+                    </div>
+                    <div className="col-md">
+                        <p>
+                            A simple portfolio website built for my personal photography.
                         </p>
                     </div>
                 </div>
@@ -240,10 +244,9 @@ const ResumeEn = (props) => {
                             <span>My secondary technological stack with which I've built projects.</span>
                         </div>
                         <ul className="skill-list">
-                            <li className="skill-list-box-item">ASP.NET Core 3.1</li>
-                            <li className="skill-list-box-item">Entity Framework 6</li>
-                            <li className="skill-list-box-item">LINQ</li>
-                            <li className="skill-list-box-item">Razor Pages</li>
+                            <li className="skill-list-box-item">ASP.NET Core</li>
+                            <li className="skill-list-box-item">Entity Framework Core</li>
+                            <li className="skill-list-box-item">Razor Views/Pages</li>
                             <li className="skill-list-box-item">WPF</li>
                         </ul>
                     </div>
@@ -265,8 +268,7 @@ const ResumeEn = (props) => {
                             <li className="skill-list-box-item">Firebase</li>
                             <li className="skill-list-box-item">SEO</li>
                             <li className="skill-list-box-item">Git</li>
-                            <li className="skill-list-box-item">MySQL</li>
-                            <li className="skill-list-box-item">T-SQL</li>
+                            <li className="skill-list-box-item">SQL</li>
                             <li className="skill-list-box-item">PHP</li>
                             <li className="skill-list-box-item">MS Office</li>
                             <li className="skill-list-box-item">Photoshop</li>

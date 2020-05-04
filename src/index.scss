@@ -35,6 +35,10 @@ a:hover {
     text-decoration: inherit;
 }
 
+address {
+    margin: 0;
+}
+
 /* Remove Hyperlinks in print */
 @media print {
     a:link {
