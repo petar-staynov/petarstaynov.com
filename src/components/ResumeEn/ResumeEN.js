@@ -44,7 +44,8 @@ const ResumeEn = (props) => {
             <section>
                 <h3 className="text-gray-700">About me:</h3>
                 <p>
-                    Freelance Web Developer with a preference for front-end work and a passion for UI and UX design.
+                    Freelance Web Developer with a preference for front-end work and a passion building useful
+                    and user-friendly applications.
                     Focused on  writing clean and readable code and devising optimised solutions to different problems.
                     Interested in the latest trends and everything "tech" from software to hardware.
                 </p>
@@ -81,11 +82,18 @@ const ResumeEn = (props) => {
                         </h5>
                         <p className="text-gray-650 m-0">2020 / Personal project</p>
                         <p className="text-gray-650 m-0">HTML, SCSS, ReactJS, Bootstrap 4</p>
+                        <p className="text-gray-650 m-0">
+                            <a href="https://coronatrackerbg.com" target="_blank">
+                                www.coronatrackerbg.com <i className="fas fa-link fa-xs"></i>
+                            </a>
+                        </p>
+
                     </div>
                     <div className="col-md">
                         <p>
-                            Design and develop a mobile friendly Coronavirus tracking app that display data
-                            from an external API in various ways for different countries.
+                            Mobile friendly Coronavirus tracking app for various countries that gets data
+                            using the native fetch api from an external data source and displays it using Apex Charts.
+                            Made using functional React components, hooks and context.
                         </p>
                     </div>
                 </div>
@@ -188,12 +196,13 @@ const ResumeEn = (props) => {
                                 Photography Portfolio Site <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2018 / Personal project</p>
+                        <p className="text-gray-650 m-0">2017 / Personal project</p>
                         <p className="text-gray-650 m-0">HTML, CSS, jQuery, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
                         <p>
                             A simple portfolio website built for my personal photography.
+                            Made using jQuery and jQuery plugins.
                         </p>
                     </div>
                 </div>
@@ -231,7 +240,6 @@ const ResumeEn = (props) => {
                             <li className="skill-list-box-item">jQuery</li>
                             <li className="skill-list-box-item">React</li>
                             <li className="skill-list-box-item">Redux</li>
-                            <li className="skill-list-box-item">redux-thunk</li>
                         </ul>
                     </div>
                 </div>
@@ -244,6 +252,7 @@ const ResumeEn = (props) => {
                             <span>My secondary technological stack with which I've built projects.</span>
                         </div>
                         <ul className="skill-list">
+                            <li className="skill-list-box-item">.NET Framework</li>
                             <li className="skill-list-box-item">ASP.NET Core</li>
                             <li className="skill-list-box-item">Entity Framework Core</li>
                             <li className="skill-list-box-item">Razor Views/Pages</li>
@@ -261,7 +270,8 @@ const ResumeEn = (props) => {
                         </div>
                         <ul className="skill-list">
                             <li className="skill-list-box-item">HTML/CSS</li>
-                            <li className="skill-list-box-item">SCSS</li>
+                            <li className="skill-list-box-item">SASS/SCSS</li>
+                            <li className="skill-list-box-item">Typescript</li>
                             <li className="skill-list-box-item">Bootstrap</li>
                             <li className="skill-list-box-item">Wordpress</li>
                             <li className="skill-list-box-item">Web hosting</li>
@@ -284,9 +294,9 @@ const ResumeEn = (props) => {
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <span>
-                                SoftUni - Software University
-                            </span>
+                            <a href="https://softuni.bg/" target="_blank">
+                                Software University (SoftUni) <i className="fas fa-link fa-xs" aria-hidden="true"></i>
+                            </a>
                         </h5>
                         <p className="text-gray-650 m-0">C# Developer</p>
                         <p className="text-gray-650 m-0">2016 - 2020</p>
@@ -294,66 +304,65 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <p>
                             Private academy offering certified courses for developers where I participated in various
-                            curriculums and worked on different solo and team projects. Current grade of 5.60/6.00
+                            curriculum and worked on different solo and team projects.
                         </p>
                         <a href="#" target="_blank">
                             <strong> - .NET Developer Diploma </strong>
                             <i className="fas fa-link fa-xs"></i>
                         </a>
                         <br/>
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1kWl55vK-h5GMXq0jkgBzMkGuuEIwetRo" target="_blank">
                             - ASP.NET Core certificate <i className="fas fa-link fa-xs"></i>
                         </a>
                         <br/>
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1WwOFCy60DIbuEVJwpy9k_5CP7Gj89j2S" target="_blank">
                             - Entity Framework Core certificate <i className="fas fa-link fa-xs"></i>
                         </a>
                         <br/>
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1YZ_BhyPA3p-fviwhNtlEibAWEflHizJq" target="_blank">
                             - MS SQL certificate <i className="fas fa-link fa-xs"></i>
                         </a>
                         <br/>
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=130aAjx4URH-mIm_0fD1tV9YMCHsOYN0j" target="_blank">
                             - C# OOP Advanced certificate <i className="fas fa-link fa-xs"></i></a>
                         <br/>
 
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=19E9XMGPwvNi9uDAAb9avd-IFoK398Nh9" target="_blank">
                             - C# OOP Basics certificate <i className="fas fa-link fa-xs"></i></a>
                         <br/>
 
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1XFocD1up0zAqRAm2AsHjUKa1pvmucdKd" target="_blank">
                             - C# Advanced certificate <i className="fas fa-link fa-xs"></i></a>
                         <br/>
 
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1-CNZS9ank0tOgahCurlpzK7oKrvdRbSe" target="_blank">
                             - JavaScript Apps certificate <i className="fas fa-link fa-xs"></i></a>
                         <br/>
 
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1j8RWCUWTXSFDJ5IIPOUczoaywo7bv6r1" target="_blank">
                             - JavaScript Advanced certificate <i className="fas fa-link fa-xs"></i></a>
                         <br/>
 
-                        <a href="#" target="_blank">
-                            - JavaScript Essentials certificate <i className="fas fa-link fa-xs"></i></a>
-                        <br/>
-
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1F8ucSa6Flvg97SlxzRWrwuktLGF7NbBC" target="_blank">
                             - Software Technologies certificate <i className="fas fa-link fa-xs"></i></a>
                         <br/>
 
-                        <a href="#" target="_blank">
+                        <a href="https://drive.google.com/open?id=1soVYrbq50kOfP7NPRX47nzcTQ-QE3M_h" target="_blank">
                             - Programming Fundamentals certificate <i className="fas fa-link fa-xs"></i></a>
                         <br/>
 
+                        <a href="https://drive.google.com/open?id=1gpYB7-cgm54Cnf5cDiIBve6PXYzmejy3" target="_blank">
+                            - Programming Basic certificate <i className="fas fa-link fa-xs"></i></a>
+                        <br/>
                     </div>
                 </div>
                 <br/>
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <span>
-                                VFU - Varna Free University
-                            </span>
+                            <a href="https://www.vfu.bg/" target="_blank">
+                                Varna Free University (VFU) <i className="fas fa-link fa-xs" aria-hidden="true"></i>
+                            </a>
                         </h5>
                         <p className="text-gray-650 m-0">Bachelor's degree in Computer Science</p>
                         <p className="text-gray-650 m-0">2016 - 2019</p>
@@ -366,16 +375,17 @@ const ResumeEn = (props) => {
                         </span>
                         <br/>
                         <a href="https://drive.google.com/open?id=1IxvoO2EseJlGSxBcdGFV-2udAQFly_En" target="_blank">
-                            - Report Card <i className="fas fa-link fa-xs"></i></a>
+                            - Report Card <i className="fas fa-link fa-xs"></i>
+                        </a>
                     </div>
                 </div>
                 <br/>
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <span>
-                                FELS - First English Language School
-                            </span>
+                            <a href="https://www.fels-sofia.org/" target="_blank">
+                                First English Language School (FELS) <i className="fas fa-link fa-xs" aria-hidden="true"></i>
+                            </a>
                         </h5>
                         <p className="text-gray-650 m-0">English and Russian with "Math and IT" profiling</p>
                         <p className="text-gray-650 m-0">2011 - 2016</p>
@@ -388,15 +398,34 @@ const ResumeEn = (props) => {
                         <br/>
                         <a href="https://drive.google.com/file/d/1SIKXOtxcUaKH1pl_IvIygeNwCs-bUnZj/view"
                            target="_blank">
-                            - Certificate in Advanced English (C2) <i className="fas fa-link fa-xs"></i></a>
+                            - Certificate in Advanced English (C2) <i className="fas fa-link fa-xs"></i>
+                        </a>
                     </div>
                 </div>
 
             </section>
             <hr/>
             <section>
-                <h3 className="text-gray-700">Interests:</h3>
-
+                <h3 className="text-gray-700">Hobbies and Interests:</h3>
+                <p>
+                    Outside of the tech sphere I enjoy maintaining a physically active
+                    lifestyle by going to the gym, hiking and mountain biking
+                    as well as being artistically engaged through photography.
+                </p>
+                {/*<div className="row text-left">*/}
+                {/*    <div className="col-6">*/}
+                {/*        <ul className="interest-list">*/}
+                {/*            <li><i className="fas fa-dumbbell"></i> Gym and fitness</li>*/}
+                {/*            <li><i className="fas fa-hiking"></i> Hiking</li>*/}
+                {/*            <li><i className="fas fa-biking"></i> Mountain biking</li>*/}
+                {/*        </ul>*/}
+                {/*    </div>*/}
+                {/*    <div className="col-6">*/}
+                {/*        <ul className="interest-list">*/}
+                {/*            <li><i className="fas fa-camera"></i> Photography</li>*/}
+                {/*        </ul>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </section>
         </div>
     )
