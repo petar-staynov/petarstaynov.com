@@ -407,25 +407,16 @@ const ResumeEn = (props) => {
             <hr/>
             <section>
                 <h3 className="text-gray-700">Hobbies and Interests:</h3>
-                <p>
-                    Outside of the tech sphere I enjoy maintaining a physically active
-                    lifestyle by going to the gym, hiking and mountain biking
-                    as well as being artistically engaged through photography.
-                </p>
-                {/*<div className="row text-left">*/}
-                {/*    <div className="col-6">*/}
-                {/*        <ul className="interest-list">*/}
-                {/*            <li><i className="fas fa-dumbbell"></i> Gym and fitness</li>*/}
-                {/*            <li><i className="fas fa-hiking"></i> Hiking</li>*/}
-                {/*            <li><i className="fas fa-biking"></i> Mountain biking</li>*/}
-                {/*        </ul>*/}
-                {/*    </div>*/}
-                {/*    <div className="col-6">*/}
-                {/*        <ul className="interest-list">*/}
-                {/*            <li><i className="fas fa-camera"></i> Photography</li>*/}
-                {/*        </ul>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="row justify-content-center">
+                   <div className="col-md-5 col-lg-4">
+                       <ul className="interest-list text-left">
+                           <li><i className="fas fa-dumbbell"></i> Health and fitness</li>
+                           <li><i className="fas fa-hiking"></i> Hiking</li>
+                           <li><i className="fas fa-biking"></i> Mountain biking</li>
+                           <li><i className="fas fa-camera"></i> Photography and image editing</li>
+                       </ul>
+                   </div>
+                 </div>
             </section>
         </div>
     )
