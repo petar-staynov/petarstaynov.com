@@ -46,7 +46,7 @@ const ResumeEn = (props) => {
                 <p>
                     Freelance Web Developer with a preference for front-end work and a passion building useful
                     and user-friendly applications.
-                    Focused on  writing clean and readable code and devising optimised solutions to different problems.
+                    Focused on  writing clean and readable code and devising optimized solutions to different problems.
                     Interested in the latest trends and everything "tech" from software to hardware.
                 </p>
             </section>
@@ -57,7 +57,7 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <h5>
                             <a href="https://github.com/petar-staynov/SoftUni-PizzaDotNet" target="_blank">
-                                Pizzeria Web App (PizzaDotNet) <i className="fas fa-link fa-xs"></i>
+                            PizzaDotNet (Pizzeria Web App) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
                         <p className="text-gray-650 m-0">2020 / University project</p>
@@ -111,8 +111,8 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <p>
                             Worked with an international team of 3 people to build and maintain a fluid and
-                            responsive website for a now defunct browser based game with ~500 unique monthly visitors.
-                            Used a combination of jQuery and Bootstrap to build web pages, fetch and display player
+                            responsive website for a now defunct browser based game with ~1000 unique monthly visitors.
+                            Used a combination of jQuery and Bootstrap to extend the user interface, fetch and display player
                             data and handle user interactions.
                         </p>
                     </div>
@@ -122,10 +122,10 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <h5>
                             <a href="https://github.com/petar-staynov/react-commerce" target="_blank">
-                                Online Store (React Commerce) <i className="fas fa-link fa-xs"></i>
+                            React-Commerce (Online store) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2019 / Personal project</p>
+                        <p className="text-gray-650 m-0">2019 / Study project</p>
                         <p className="text-gray-650 m-0">HTML, CSS, React, Redux, Bootstrap 4</p>
                     </div>
                     <div className="col-md">
@@ -139,7 +139,7 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <h5>
                             <a href="https://github.com/petar-staynov/vimeo-video-downloader" target="_blank">
-                                Vimeo Video Downloader (Extension) <i className="fas fa-link fa-xs"></i>
+                                Vimeo Video Downloader (Chrome extension) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
                         <p className="text-gray-650 m-0">2019 / Personal project</p>
@@ -157,7 +157,7 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <h5>
                             <a href="https://github.com/petar-staynov/softuni-better-video-player-extension" target="_blank">
-                                SoftUni Better video player (Extension) <i className="fas fa-link fa-xs"></i>
+                                SoftUni Better video player (Chrome extension) <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
                         <p className="text-gray-650 m-0">2019 / Personal project</p>
@@ -169,22 +169,22 @@ const ResumeEn = (props) => {
                             on the SoftUni video player page.
                         </p>
                     </div>
-                </div>
+                </div>     
                 <br/>
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <a href="https://github.com/petar-staynov/CSharp-Image-Filters" target="_blank">
-                                Image Filters (Desktop app) <i className="fas fa-link fa-xs"></i>
+                            <a href="#" target="_blank">
+                                TopMedica
                             </a>
                         </h5>
-                        <p className="text-gray-650 m-0">2019 / University project</p>
-                        <p className="text-gray-650 m-0">C#, WPF</p>
+                        <p className="text-gray-650 m-0">2017-2018 / Work project</p>
+                        <p className="text-gray-650 m-0">HTML, CSS, PHP, Wordpress</p>
                     </div>
                     <div className="col-md">
                         <p>
-                            A WPF Windows desktop application that applies different filters to an image
-                            that the user chooses.
+                            Built and maintained a Wordpress website for a specialized medical magazine.
+                            Wrote custom HTML and CSS, improved SEO, provided technical support to clients.
                         </p>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ const ResumeEn = (props) => {
                     </div>
                     <div className="col-md">
                         <p>
-                            A simple portfolio website built for my personal photography.
+                            A portfolio website built for my personal photography.
                             Made using jQuery and jQuery plugins.
                         </p>
                     </div>
@@ -219,7 +219,7 @@ const ResumeEn = (props) => {
                     </div>
                     <div className="col-md">
                         <p>
-                            A simple space ship browser based video game made with HTML 5 Canvas and pure JavaScript.
+                            Worked with a team of three to build a simple space ship browser based video game with HTML 5 Canvas and pure JavaScript.
                         </p>
                     </div>
                 </div>
@@ -235,11 +235,12 @@ const ResumeEn = (props) => {
                             <span>My primary technologies stack that I'm most comfortable using.</span>
                         </div>
                         <ul className="skill-list">
-                            <li className="skill-list-box-item">ES6</li>
-                            <li className="skill-list-box-item">AJAX</li>
-                            <li className="skill-list-box-item">jQuery</li>
                             <li className="skill-list-box-item">React</li>
                             <li className="skill-list-box-item">Redux</li>
+                            <li className="skill-list-box-item">redux-toolkit</li>
+                            <li className="skill-list-box-item">jQuery</li>
+                            <li className="skill-list-box-item">ES6</li>
+                            <li className="skill-list-box-item">AJAX</li>
                         </ul>
                     </div>
                 </div>
@@ -304,10 +305,10 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <p>
                             Private academy offering certified courses for developers where I participated in various
-                            curriculum and worked on different solo and team projects.
+                            curriculum and worked on different solo and group projects.
                         </p>
-                        <a href="#" target="_blank">
-                            <strong> - .NET Developer Diploma </strong>
+                        <a href="https://drive.google.com/file/d/1QvpiJIFFTCrxagyJuBrrkqMj8mOVdqkn" target="_blank">
+                            <strong> - C# Web Developer Diploma </strong>
                             <i className="fas fa-link fa-xs"></i>
                         </a>
                         <br/>
@@ -365,18 +366,14 @@ const ResumeEn = (props) => {
                             </a>
                         </h5>
                         <p className="text-gray-650 m-0">Bachelor's degree in Computer Science</p>
-                        <p className="text-gray-650 m-0">2016 - 2019</p>
+                        <p className="text-gray-650 m-0">2016 - 2020</p>
                     </div>
                     <div className="col-md">
                         <span>
                             Private University where I took various courses in software development
-                            and mathematics before dropping out in 3rd year. Current grade of 5.64/6.00
-                            from 32 out of 48 courses.
+                            and mathematics.
                         </span>
                         <br/>
-                        <a href="https://drive.google.com/open?id=1IxvoO2EseJlGSxBcdGFV-2udAQFly_En" target="_blank">
-                            - Report Card <i className="fas fa-link fa-xs"></i>
-                        </a>
                     </div>
                 </div>
                 <br/>
@@ -393,7 +390,7 @@ const ResumeEn = (props) => {
                     <div className="col-md">
                         <span>
                             Elite highschool with a focus on studying foreign languages.
-                            Graduated with an excellent grade of 5.70/6.00 and a certificate in English.
+                            Graduated with an excellent marks and a certificate in English.
                         </span>
                         <br/>
                         <a href="https://drive.google.com/file/d/1SIKXOtxcUaKH1pl_IvIygeNwCs-bUnZj/view"
