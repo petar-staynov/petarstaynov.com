@@ -9,29 +9,19 @@ const ResumeEn = (props) => {
                     <h5>Web Developer / Programmer</h5>
                     <hr/>
                     <div className="row">
-                        <div className="col-md">
+                        <div className="col-md-5">
                             <address>
                                 <a href="mailto:petar.staynov@gmail.com" className="m-3"target="_blank">
                                     <i className="fas fa-envelope-square fa-lg"></i> petar.staynov@gmail.com
                                 </a>
                             </address>
                         </div>
-                        <div className="col-md">
+                        <div className="col-md-3">
                             <a href="https://www.google.com/maps/place/Sofia/" className="m-3"target="_blank">
                                 <i className="fas fa-map-marker-alt fa-lg"></i> Sofia, Bulgaria
                             </a>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col col-12">
-                            <a href="https://www.facebook.com/profile.php?id=100003782501671"
-                               className="m-3"target="_blank">
-                                <i className="fab fa-facebook-square fa-lg"></i> Petar Staynov
-                            </a>
-                            <a href="https://www.linkedin.com/in/petar-staynov/"
-                               className="m-3" target="_blank">
-                                <i className="fab fa-linkedin fa-lg"></i> petar-staynov
-                            </a>
+                        <div className="col col-md-4">
                             <a href="https://github.com/petar-staynov"
                                className="m-3" target="_blank">
                                 <i className="fab fa-github-square fa-lg"></i> petar-staynov
@@ -174,7 +164,7 @@ const ResumeEn = (props) => {
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <a href="#" target="_blank">
+                            <a href="#">
                                 TopMedica
                             </a>
                         </h5>
@@ -192,7 +182,7 @@ const ResumeEn = (props) => {
                 <div className="row text-left">
                     <div className="col-md">
                         <h5>
-                            <a href="#" target="_blank">
+                            <a href="http://petarstaynov.photography" target="_blank">
                                 Photography Portfolio Site <i className="fas fa-link fa-xs"></i>
                             </a>
                         </h5>
