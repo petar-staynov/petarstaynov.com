@@ -3,7 +3,7 @@ import './Footer.scss';
 
 const Footer = (props) => {
     return (
-        <div className="footer"> </div>
+        <div className="footer no-print"> </div>
     )
 };
 
