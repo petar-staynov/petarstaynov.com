@@ -52,6 +52,11 @@ const ResumeEn = (props) => {
                         </h5>
                         <p className="text-gray-650 m-0">2020 / University project</p>
                         <p className="text-gray-650 m-0">HTML, CSS, C#, ASP.NET Core, Entity Framework, AutoMapper, Bootstrap 4</p>
+                        <p className="text-gray-650 m-0">
+                            <a href="https://pizzadotnetweb20201130231618.azurewebsites.net/" target="_blank">
+                            www.pizzadotnetweb.azurewebsites.net <i className="fas fa-link fa-xs no-print"></i>
+                            </a>
+                        </p>
                     </div>
                     <div className="col-md">
                         <p>
