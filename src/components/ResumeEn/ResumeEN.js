@@ -40,7 +40,7 @@ const ResumeEn = (props) => {
             </div>
             <div className="col-md-2">
               <a
-                href="https://www.google.com/maps/place/Sofia/"
+                href="https://www.linkedin.com/in/petar-staynov/"
                 className="m-3"
                 target="_blank"
                 rel="noopener noreferrer"
