@@ -1,0 +1,136 @@
+{
+  "name": "Petar Staynov",
+  "title": "Fullstack Web Developer - React/Angular",
+  "aboutme": "Fullstack Web Developer with a preference for front-end work and a passion building useful and user-friendly applications. With a personal as well as team focused growth mindset, interested in writing clean and readable code, devising optimized solutions and sharing knowledge and experience. Interested in the latest trends and everything \"tech\" from software to hardware.",
+  "professional": [
+    {
+      "company": "Accedia",
+      "project": "Alexander Forbes – Fund Management System",
+      "description": "Participated in the development of a web-based replacement for a legacy Financial application used for managing funds, assets and investments, managed by Alexander Forbes, one of the leading financial services companies in South Africa. The project was handled fully remote by two teams, one based in Bulgaria and the other in South Africa. Responsibilities included taking part in the development process on all fronts, being a leading example for the development of the frontend, reviewing code and exchanging feedback, writing documentation and helping optimize the developer workflow. ",
+      "date": "2021 - Present",
+      "stack": [
+        "Angular",
+        "TypeScript",
+        ".NET Core",
+        "SQL Server",
+        "Azure"
+      ],
+      "responsibilities": [
+        "Assist with Backend, Frontend and Database design",
+        "Lead frontend design and development",
+        "Development of new features",
+        "Regular Code Reviews and feedback exchange",
+        "Maintaining frontend code quality and enforcing best practices",
+        "Writing documentation",
+        "Resolving performance issues",
+        "Optimizing developer workflow and environment setup"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "project": "CYOA Visual Novel Browser Based game",
+      "description": "Worked with an international team of 3 people to build and maintain a fluid and responsive interface for a now defunct browser based game that had over 1000 unique monthly visitors at its peak. Helped modernize the legacy Javascript and jQuery code by laying out an architecture based on React and Redux and later on Redux Toolkit. Further work included implementing new mechanics and content as well as optimizing performance and resolving asynchronous operation issues related to the game engine. ",
+      "date": "2018 - 2020",
+      "stack": [
+        "React",
+        "Redux",
+        "Redux Toolkit",
+        "redux-thunk",
+        "Bootstrap"
+      ],
+      "responsibilities": [
+        "Lead frontend design and development",
+        "Development of new features",
+        "Resolving performance issues"
+      ]
+    },
+    {
+      "company": "TopMedica",
+      "project": "TopMedica Specialized Magazine Website",
+      "description": "Built and maintained a Wordpress website for a specialized medical magazine. Featured content included different articles, videos and interviews. Main tasks included general maintenance, styling, updating content and communication with client and other participating parties.",
+      "date": "2017 - 2018",
+      "stack": [
+        "HTML",
+        "CSS",
+        "PHP",
+        "Wordpress"
+      ],
+      "responsibilities": ""
+    }
+  ],
+
+  "personal": [
+    {
+      "company": "Bitwarden To Chrome Password Converter",
+      "project": "Password Converter (~20 Github Stars 🌟 / 3 forks 🍴)",
+      "description": "Console based application for converting passwords from Bitwarden, a password managerm to a format for importing into Chrome and Chromium-based browsers. The project is actively maintained and provided as-is for free use.",
+      "date": "2020 - Present",
+      "link": "https://github.com/petar-staynov/BitwardenToChromePasswordConverter",
+      "repoLink": "",
+      "stack": [
+        ".NET Core",
+        "C#"
+      ],
+      "responsibilities": ""
+    },
+    {
+      "company": "PizzaDotNet",
+      "project": "Pizzeria Restaurant Order Management System",
+      "description": "Built from the ground up a web application for managing Pizza Restaurant orders. Solution included database setup and deployment on Azure, design and relations management, design and implementation of a backend MVC architecture with additional API controllers and a responsive frontend using Bootstrap and Javascript. Notable mention are the usage of a Repository Pattern, Google Cloud Storage and async JS/AJAX.",
+      "date": "2020",
+      "link": "https://github.com/petar-staynov/SoftUni-PizzaDotNet",
+      "repoLink": "",
+      "stack": [
+        "ASP.NET Core",
+        "ASP.NET Core Web API",
+        "Entity Framework",
+        "AutoMapper",
+        "Bootstrap",
+        "Google Cloud Storage",
+        "C#",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "responsibilities": ""
+    },
+    {
+      "company": "Coronatracker BG",
+      "project": "Coronavirus tracking web app",
+      "description": "Coronavirus statistics tracking app for various countries that gets data using the native fetch api from an external data source and displays it using Apex Charts. Made with React and Bootstrap and using functional React components, hooks and context.",
+      "date": "2020",
+      "link": "https://coronatrackerbg.com",
+      "repoLink": "https://github.com/petar-staynov/coronavirus-tracker-bg",
+      "stack": [
+        "React",
+        "Bootstrap"
+      ],
+      "responsibilities": ""
+    },
+    {
+      "company": "Vimeo Video Downloader Extension",
+      "project": "Coronavirus tracking web app",
+      "description": "A simple extension for Chrome and Chromium-based browsers that allows downloading videos through unauthorized API access.",
+      "date": "2019",
+      "link": "https://github.com/petar-staynov/vimeo-video-downloader",
+      "stack": [
+        "JavaScript"
+      ],
+      "responsibilities": ""
+    },
+    {
+      "company": "SoftUni Better video player Extension",
+      "project": "Coronavirus tracking web app",
+      "description": "A simple extension for Chrome and Chromium-based browsers that improves the user experience on the SoftUni video page.",
+      "date": "2019",
+      "link": "https://github.com/petar-staynov/softuni-better-video-player-extension",
+      "stack": [
+        "JavaScript"
+      ],
+      "responsibilities": ""
+    }
+  ],
+  "certificates": {
+  }
+}

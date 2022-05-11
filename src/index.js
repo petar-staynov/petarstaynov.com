@@ -1,14 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+import * as serviceWorker from "./serviceWorker";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.scss';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.scss";
 
-
-const root = document.getElementById('root');
-const app = <App/>;
+const root = document.getElementById("root");
+const app = <App />;
 
 ReactDOM.render(app, root);
 
