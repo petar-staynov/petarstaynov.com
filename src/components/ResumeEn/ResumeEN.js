@@ -15,7 +15,7 @@ const ResumeEn = (props) => {
           <h5>{title}</h5>
           <hr />
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
               <address>
                 <a
                   href="mailto:petar.staynov@gmail.com"
@@ -28,7 +28,7 @@ const ResumeEn = (props) => {
                 </a>
               </address>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-3">
               <a
                 href="https://www.google.com/maps/place/Sofia/"
                 className="m-3"
@@ -38,7 +38,7 @@ const ResumeEn = (props) => {
                 <i className="fas fa-map-marker-alt fa-lg"></i> Sofia, Bulgaria
               </a>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-3">
               <a
                 href="https://www.linkedin.com/in/petar-staynov/"
                 className="m-3"
@@ -48,7 +48,7 @@ const ResumeEn = (props) => {
                 <i className="fab fa-linkedin-in fa-lg"></i> Petar Staynov
               </a>
             </div>
-            <div className="col col-md-4">
+            <div className="col col-md-3">
               <a
                 href="https://github.com/petar-staynov"
                 className="m-3"
@@ -72,7 +72,7 @@ const ResumeEn = (props) => {
       <ProjectsList title={"Personal projects"} projects={personal} />
       <hr />
       <section>
-        <h3 className="text-gray-700">Skills and experience:</h3>
+        <h3 className="text-gray-700">Skills:</h3>
         <div className="row text-left">
           <div className="col">
             <div className="skill-mark"></div>
